@@ -27,7 +27,7 @@
 
 	body {
 		line-height: 1;
-		background: rgba(247, 218, 174, 0.7);
+		background: rgba(247, 218, 174, 0);
 		transform: none;
 		cursor: url("https://tioma-shevchenko.github.io/images/Cursor.svg"), auto;
 		
@@ -1604,7 +1604,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ff770b !important;
+			color: #fca573 !important;
 			text-decoration: none;
 		}
 
@@ -1849,7 +1849,7 @@
 .blog-post img {
     max-width: 100%;
     border: 2px solid black;
-    filter: drop-shadow(7px 7px 0px #fb9d51);
+    filter: drop-shadow(7px 7px 0px #FFBE98);
     sfilter: drop-shadow(7px 7px 0px black);
 }
 figcaption {
@@ -1864,21 +1864,21 @@ p.separator {
 .blend-mode-multiply {
     mix-blend-mode: multiply;
     border: none !important;
-    filter: drop-shadow(0px 0px 0px #fb9d51) !important;
+    filter: drop-shadow(0px 0px 0px #FFBE98) !important;
 }
 .progress-container {
     position: fixed; /* Stick to the top */
     top: 0; /* Position at the top of the viewport */
     left: 0;
     width: 100%;
-    background-color: #f7daae; /* Background color of progress bar */
+    background-color: white; /* Background color of progress bar */
     z-index: 9999; /* Ensure the progress bar is above other content */
 }
 
 /* Style the progress bar */
 .progress-bar {
     height: 6px; /* Height of the progress bar */
-    background-color: #fb9d51; /* Color of the progress bar */
+    background-color: #FFBE98; /* Color of the progress bar */
     width: 0; /* Initial width of the progress bar */
 }
 blockquote {
@@ -1934,7 +1934,7 @@ blockquote {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #ff770b;
+			border-color: #fca573;
 		}
 
 	.select-wrapper {
@@ -2044,7 +2044,7 @@ blockquote {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #ff770b;
+			border-color: #fca573;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2232,7 +2232,7 @@ blockquote {
 				border-radius: 47%;
 				width: 100%;
 				border: solid black 3px;
-    			filter: drop-shadow(7px 7px 0px #fb9d51);
+    			filter: drop-shadow(7px 7px 0px #FFBE98);
 			}
 
 /* List */
@@ -2551,7 +2551,7 @@ ul.no-bullets {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		background-color: #fb9d51;
+		background-color: #FFBE98;
 		color: #1f1815 !important;
 		cursor: pointer;
 		display: inline-block;
@@ -2571,7 +2571,8 @@ ul.no-bullets {
 		
 		.button:hover {
 			color: #1f1815 !important;
-			background-color: #ff770b;
+			cbackground-color: #fca573;
+			background-color: #fca573;
 			border: 3px solid #1f1815;
 		}
 
@@ -2625,8 +2626,8 @@ ul.no-bullets {
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #ff770b;
-			border-color: #ff770b;
+			background-color: #fca573;
+			border-color: #fca573;
 			color: #ffffff !important;
 		}
 
