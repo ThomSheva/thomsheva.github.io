@@ -1,214 +1,1640 @@
-<!DOCTYPE HTML>
-<!--
-	I used a template by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Thom Sheva Design</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
-	</head>
+<!DOCTYPE html>
+<html lang="en">
 
-	<body id="top" style="
-    background-image: url('images/HGHLTR.png');
-    background-repeat: no-repeat;
-    background-position: calc(100% - 30px) calc(100% + 300px);
-    background-size: 130px;">
+<head>
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<div class="image avatar"><img src="images/ra.jpg" alt="" /></div>
-					<h1>Thom Sheva</h1>
-					<p>UX/Product Design, Research & Strategy</p>
-				</div>
-			</header>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="UX/Product Design, Research & Strategy, London & Vancouver.">
+    <meta name="author" content="Thom Sheva">
 
-		<!-- Main -->
-			<div id="main">
+    <title>Thom Sheva Design</title>
 
-				<!-- One -->
-					<section id="one">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-						<h3>What I do.</h3>
-								<p>I help companies build <strong>products that are useful and satisfying to use</strong>, intuitive, engaging and seamless. My contribution supports <strong>long-lasting business value</strong> by addressing customer acquisition, activation, retention, and referral.<br/><br/>
-						<h3>How.</h3>
-								<p>I join the dots between business objectives, customer expectations, and technical feasibility.<br/><br/>
-								Building successful products requires a deep understanding of user needs and context. I coordinate thorough user research to <strong>provide insights that guide product strategy and development</strong>. To foster a holistic approach to product creation, I help companies establish lean and agile workflows, streamlining <strong>communication between teams</strong>.<br/><br/>
-								I <strong>empower my teams</strong> with a sense of ownership (hence, motivation), control (hence, responsibility), cultivating a culture where people feel safe to take risks and learn from mistakes quickly, <strong>maximising the quality of the outcomes</strong>.<br/><br/>
-								I keep companies focused on their customers.<br/><br/>
-						<h3>Why.</h3>
-								<p>The two things I like about my line of work are challenges and healthy sleep. <br/><br/>
-								<strong>Challenges motivate me</strong>. Not only in work but in life too. I make active choices, I change things, I lead, and I create rather than react.<br/><br/>
-								Some designers build <i>beautiful</i> interfaces. I don't. <strong>I solve problems</strong>.<br/><br/>
-								By finding a balance between business objectives and customer needs, I ensure the product's <strong><i>usability</i></strong> and <strong><i>utility</i></strong>. Sometimes it might include beautiful interfaces too, among other things.<br/><br/>
-								I'm comfortable in the knowledge that my work makes a tiny part of somebody's life better. I steer away from dark design patterns, and I sleep well at night.</p>
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    
+    
+    <link href="owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="owl-carousel/owl.theme.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    
+    <style>
+    .bgclr {background-color: black; transition: all .3s ease-in-out;}
+    .bgclr88 {background-color: black; transition: all .3s ease-in-out;}
+.clr-btn-outline {
+    margin-top: 15px;
+    border: solid 2px rgb(79, 176, 174);
+    border-radius: 0px;
+    transition: all .1s ease-in-out;}
+.clr-btn-outline:hover,
+.clr-btn-outline:focus,
+.clr-btn-outline:active,
+.clr-btn-outline.active {
+    border: solid 2px #fff;
+    color: #fff;
+    background: rgb(79, 176, 174);}
+</style>
+    
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar bgclr88 navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Thom Sheva</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#expertise">Expertise</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Work</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#resume">CV</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#tv">TV</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contacts">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header class="bgclr">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                
+                    <img class="img-responsive ra" src="img/profile.png" alt="">
+
+                </div>
+                    <div class="intro-text">
+                        <span class="name">Thom Sheva</span>
+                        <li class="pressstart">
+                        <a href="#about" class="pressstarta">Press Start</a>
+                    </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
 
 
-						
-					</section>
 
 
-				<!-- Two -->
-					<section id="two">
-						<h2><strong>Experience & Expertise</strong></h2>
-						<div class="row">
-							
-							
-							<article class="6u 12u$(xsmall) work-item">
-								
-								<h3>Design + Business</h3>
-								<p>In my career, I did get exposed to the corporate culture (which was useful knowledge), but <strong>I matured as a Designer in the sink-or-swim start-up environment</strong> in Shoreditch, London, UK.<br/><br/>
+    <section id="about" class="aliceblue">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                </div>
+            </div>
+            <div class="row expertise">
+                
+              <div class="readcosy">
+                <p><i class="clr"></i></p>
+                <p><b>UX professional with 15 years of experience designing user-centric products across web, mobile, and desktop. Proven track record of driving user engagement and business growth. Skilled in leading teams and utilizing agile/lean methodologies. Adept at leveraging user research and analytics to inform design strategy and improve customer satisfaction.</b><br/><br/></p>
+                <h4 class="clr abouth">What I do</h4>
+                <p class="abouthp">
+                                Some designers aim to build <i>beautiful</i> interfaces. I don't. <strong>I solve business problems</strong>.<br/><br/>
+                                By finding a balance between business objectives and customer needs, I ensure the product's <strong><i>usability</i></strong> and <strong><i>utility</i></strong>. Usually, it includes creating beautiful interfaces too, among other things.<br/><br/>
+                                I help companies build <strong>products that are useful and satisfying to use</strong>, intuitive, engaging, and seamless. My contribution supports <strong>long-lasting business value</strong> by addressing customer <i>acquisition</i>, <i>activation</i>, <i>retention</i>, and <i>referral</i>. </p>
+                <h4 class="clr abouth">How</h4>
+                <p class="abouthp">
+                                I join the dots between business objectives, customer expectations, and technical feasibility.<br/><br/>
+                                Building successful products requires a deep understanding of user needs and context. I coordinate thorough user research to <strong>provide insights that guide product strategy and development</strong>. To foster a holistic approach to product creation, I help companies establish <i>lean</i> and <i>agile</i> workflows, streamlining <strong>communication between teams</strong>.<br/><br/>
+                                I keep companies focused on their customers.</p>
+                <h4 class="clr abouth">Why</h4>
+                <p class="abouthp">The two things I like about my line of work are challenges and healthy sleep. <br/><br/>
+                                <strong>Challenges motivate me</strong>. Not only in work but in life too. I make active choices, I change things, I lead, and I create rather than react.<br/><br/>
+                                
+                                I'm comfortable in the knowledge that my work makes a tiny part of somebody's life better. I steer away from dark design patterns, and I sleep well at night.</p>
+              </div>
 
-								Increasing product utility, optimising conversion funnels, improving retention and referral, cutting development costs -  <strong>Design is a function that adds value</strong> to the business.</p>
-							</article>
-							<article class="6u$ 12u$(xsmall) work-item">
-								
-								<h3>User-centricity</h3>
-								<p>The Design Thinking we call it. Fancy. We, humans, love coming up with names for things. But to know the word is one thing, but to walk the walk…<br/><br/>
+                
+            </div>
+        </div>
+    </section>
+     <!-- About Section -->
+    <section id="expertise">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Expertise</h2>
+                </div>
+            </div>
+            <div class="row expertise">
+                
+              
+                <div class="col-md-4 column">
+                <p><i class="clr"></i></p>
+                <h4 class="clr marginbot">Design + Business</h4>
+                <p>In my career, I did get exposed to the corporate culture (which was useful knowledge), but <strong>I matured as a Designer in the sink-or-swim start-up environment</strong> in Shoreditch, London, UK.<br/><br/>
 
-								Focusing on the customer is important for a business, especially in the long term. And it is important that <strong>everyone in the company</strong> understands that, not only the people in Design.<br/><br/>
+                                Increasing product utility, optimizing conversion funnels, improving retention and referral, cutting development costs -  <strong>Design is a function that adds value</strong> to the business.</p>
+              </div>
 
-								I know how to ensure that.
-</p>
-							</article>
-							
-							<article class="6u 12u$(xsmall) work-item">
-								
-								<h3>Strategy</h3>
-								<p>Back in 1997 one successful businessperson said, “<strong>You’ve got to start with the customer experience and work backwards to the technology</strong>”. It’s been almost thirty years now, and it's evident that the approach has been quite successful, yet still lots of businesses ignore that concept in one way or another.<br/><br/>
+              <div class="col-md-4 column">
+                <p><i class="clr"></i></p>
+                <h4 class="clr marginbot">User-centricity</h4>
+                <p>Focusing on the customer is important for a business, especially in the long term. And it is important that <strong>everyone in the company</strong> understands that, not only the people in Design.<br/><br/>
 
-								User research is instrumental in shaping the “<strong>cohesive larger vision” for a successful product</strong>. User testing and iterative design help to <strong>maximise the quality of what goes into development</strong>. Measuring the existing product informs the ways to <strong>optimise it</strong>. And the cycle never stops.</p>
-							</article>
-							
-							<article class="6u 12u$(xsmall) work-item">
-								
-								<h3>Synergy</h3>
-								<p>Cross-functional collaboration is essentially <strong>communication</strong>. In a small start-up of five people, a CEO, a front- and a back-end engineer, a designer and a marketer all sit around one table every day and collaborate with minimum obstacles - <strong>minimum loss of information</strong> in the communication.<br/><br/>
-								As the company scales up, we start talking about departments, with heads, and workflows, and politics. But the idea remains: it is still about effective communication. Whether it is a comprehensive workflow or small <strong>project-based cross-functional teams</strong>, the goal is the same: to collaborate, to share expertise, feedback and ideas, to maximise the quality of the outcome, and to minimise the time to get there.</p>
-							</article>
-							<article class="6u 12u$(xsmall) work-item">
-								
-								<h3>Leadership</h3>
-								<p>I have learnt how to build and how to lead teams through what you might call “blood, sweat, and tears”. And success, and laughter, and conflict, and respect.<br/><br/>
-								I know how to motivate my team, how to give them a <strong>sense of ownership</strong> and understanding of the impact of their work on the business. I know how to organise the workflow and how to <strong>fuse the team with one clear vision</strong>.</p>
-							</article>
-							<article class="6u$ 12u$(xsmall) work-item">
-								
-								<h3>Hands-on</h3>
-								<p>Did I mention I have hands-on experience <strong>across the full range of UX design practices</strong>, from comprehensive research, content and functional requirements synthesis, information architecture, and iterative prototyping through to final design delivery, product performance measurement and continuous optimisation?<br/><br/>
-								I do.</p>
-							</article>
-						</div>
-						<ul class="actions">
-							<li><a href="pdf/Thom Sheva CV.pdf" class="button" target="_blank">View Full CV in PDF <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="24px" height="24px"><g fill="#1f1815" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8,8)"><path d="M18,5v2h5.5625l-12.28125,12.28125l1.4375,1.4375l12.28125,-12.28125v5.5625h2v-9zM5,9v18h18v-13l-2,2v9h-14v-14h9l2,-2z"></path></g></g></svg></a></li>
-						</ul>
-					</section>
+                                I know how to ensure that.</p>
+              </div>
 
-					<section>
-						<h2><strong>Success Stories</strong></h2>
-						
-									
-								<h3>One about bringing Design Thinking into a company</h3>
-								<p>In this dramatic story, I'll share how I helped a company make that exciting leap of bringing design to the forefront.<br/><br/>By <strong>breaking down silos</strong> and nurturing <strong>cross-functional collaboration</strong>, by weaving research into business and product strategies, and placing design leadership at the heart of product delivery, I transformed the way the company operated.<br/><br/>Resulting in a positive impact on product quality and customer experience.</p>
-							<ul class="actions">
-							<li><a href="https://thomsheva.github.io/case-one.html" class="button" target="_blank">Read Success Story #1 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="24px" height="24px"><g fill="#1f1815" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8,8)"><path d="M18,5v2h5.5625l-12.28125,12.28125l1.4375,1.4375l12.28125,-12.28125v5.5625h2v-9zM5,9v18h18v-13l-2,2v9h-14v-14h9l2,-2z"></path></g></g></svg></a></li>
-							</ul>
-							
-								<br/><br/><br/>
-								<h3>One about building a world-class product</h3>
-								<p>In this story, I'll share how I led a cross-functional team to develop a tool that quickly became the <strong>top choice for its purpose worldwide</strong>.<br/><br/>
-								Uniting diverse skill sets in <strong>harmonious and efficient collaboration</strong>, we achieved global success while fostering a humble and enjoyable work environment.</p>
-							
-						
-						<ul class="actions">
-							<li><a href="https://thomsheva.github.io/case-two.html" class="button" target="_blank">Read Success Story #2<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="24px" height="24px"><g fill="#1f1815" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8,8)"><path d="M18,5v2h5.5625l-12.28125,12.28125l1.4375,1.4375l12.28125,-12.28125v5.5625h2v-9zM5,9v18h18v-13l-2,2v9h-14v-14h9l2,-2z"></path></g></g></svg></a></li>
-						</ul>
-					</section>
+              <div class="col-md-4 column">
+                <p><i class="clr"></i></p>
+                <h4 class="clr marginbot">Strategy</h4>
+                <p>Back in 1997 one successful businessperson said, “<strong>You’ve got to start with the customer experience and work backwards to the technology</strong>”.<br/><br/>
 
-					<section>
-						<header class="major">
-							<h6><i>“UX design is the value you deliver <strong>at every touchpoint</strong>. These values — whether negative or positive — are stitched together to shape a <strong>user’s perception of the product</strong>.”</i></h6><br/><br/>
-							<h6 class="author">—Emily Stewart</h6>
-						</header>
-					</section>
+                                User research is instrumental in shaping the “<strong>cohesive larger vision” for a successful product</strong>. User testing and iterative design help to <strong>maximize the quality of what goes into development</strong>. Measuring the existing product informs the ways to <strong>optimize it</strong>. And the cycle never stops.</p>
+              </div>
 
-				<!-- Three -->
-					<section id="three">
-						<h2><strong>Get In Touch</strong></h2>
-						<p>Do get in touch if you think I might be of value to your business. Let's talk.</p>
-						<div class="row">
-							
-							<div>
-							<!-- <div class="4u$ 12u$(small)"> -->
-								<ul class="no-bullets">
-									<li>
-										<svg width="24" height="24" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"><path d="M0 1694.235h1920V226H0v1468.235ZM112.941 376.664V338.94H1807.06v37.723L960 1111.233l-847.059-734.57ZM1807.06 526.198v950.513l-351.134-438.89-88.32 70.475 378.353 472.998H174.042l378.353-472.998-88.32-70.475-351.134 438.89V526.198L960 1260.768l847.059-734.57Z" fill-rule="evenodd"/></svg>
-									thomsheva.design@gmail.com</li>
-									<li>
-							<svg fill="fff" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64" xml:space="preserve"><path d="M48.6 60.9c-8.1 0-19.6-5.8-30.2-15.8C4 31.3-2.1 15.9 4.3 9.1c.3-.3.7-.6 1.1-.8l8.1-4.6c2.1-1.2 4.7-.6 6.1 1.4l5.9 8.4c.7 1 1 2.2.7 3.4-.2 1.1-.9 2.1-1.9 2.8L20.8 22c2.7 3.9 10 13.6 21.6 20.5.1.1.2 0 .2 0l2.5-3.4c1.4-1.9 4.1-2.4 6.2-1.1l8.8 5.6c2.1 1.3 2.7 4 1.4 6.1l-4.8 7.7c-.3.4-.6.8-.9 1.1-1.8 1.6-4.3 2.4-7.2 2.4zM15.8 7.6s-.1 0 0 0l-8.2 4.6c-3.8 4.1.9 17.2 14 29.6 13.3 12.6 27 17.1 31.4 13.3l4.8-7.7-8.8-5.6h-.2l-2.5 3.4c-1.4 1.9-4.1 2.4-6.1 1.2-12.5-7.5-20.3-17.9-23.1-22-.7-1-.9-2.2-.7-3.3.2-1.2.9-2.2 1.9-2.8l3.5-2.3L16 7.7c-.1 0-.2-.1-.2-.1z"/></svg>
- 									<a href="tel:+15878326330">587-832-6330</a>
- 									</li>
-                                    
-									
-								</ul>
-							</div>
-						</div>
-						<div id="credits"><br/><br/><br/>Pointer cursor by <a href="https://www.freepik.com/free-vector/pixel-mouse-cursors-pointer-arrow-wait_11053931.htm" target="_blank">macrovector</a> on Freepik.
-						</div>
-					</section>
+              <div class="col-md-4 column">
+                <p><i class="clr"></i></p>
+                <h4 class="clr marginbot">Synergy</h4>
+                <p>Whether it is a comprehensive workflow or small <strong>project-based cross-functional teams</strong>, the goal is the same: to collaborate, to share expertise, feedback and ideas, to maximise the quality of the outcome, and to minimise the time to get there.</p>
+              </div>
 
-				
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-                	
-									
- 
-					<ul class="copyright">
-                    	<li>
-							<svg fill="#000" width="16" height="16" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"><path d="M0 1694.235h1920V226H0v1468.235ZM112.941 376.664V338.94H1807.06v37.723L960 1111.233l-847.059-734.57ZM1807.06 526.198v950.513l-351.134-438.89-88.32 70.475 378.353 472.998H174.042l378.353-472.998-88.32-70.475-351.134 438.89V526.198L960 1260.768l847.059-734.57Z" fill-rule="evenodd"/></svg>
- 						thomsheva.design@gmail.com
- 						</li>
+              <div class="col-md-4 column">
+                <p><i class="clr"></i></p>
+                <h4 class="clr marginbot">Leadership</h4>
+                <p>I have learnt how to build and how to lead teams through what you might call “blood, sweat, and tears”. And success, and laughter, and conflict, and respect.<br/><br/>
+                                I know how to motivate my team, how to give them a <strong>sense of ownership</strong> and understanding of the impact of their work on the business. I know how to organise the workflow and how to <strong>fuse the team with one clear vision</strong>.</p>
+              </div>
 
- 						<li>
-										<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64" xml:space="preserve"><path d="M48.6 60.9c-8.1 0-19.6-5.8-30.2-15.8C4 31.3-2.1 15.9 4.3 9.1c.3-.3.7-.6 1.1-.8l8.1-4.6c2.1-1.2 4.7-.6 6.1 1.4l5.9 8.4c.7 1 1 2.2.7 3.4-.2 1.1-.9 2.1-1.9 2.8L20.8 22c2.7 3.9 10 13.6 21.6 20.5.1.1.2 0 .2 0l2.5-3.4c1.4-1.9 4.1-2.4 6.2-1.1l8.8 5.6c2.1 1.3 2.7 4 1.4 6.1l-4.8 7.7c-.3.4-.6.8-.9 1.1-1.8 1.6-4.3 2.4-7.2 2.4zM15.8 7.6s-.1 0 0 0l-8.2 4.6c-3.8 4.1.9 17.2 14 29.6 13.3 12.6 27 17.1 31.4 13.3l4.8-7.7-8.8-5.6h-.2l-2.5 3.4c-1.4 1.9-4.1 2.4-6.1 1.2-12.5-7.5-20.3-17.9-23.1-22-.7-1-.9-2.2-.7-3.3.2-1.2.9-2.2 1.9-2.8l3.5-2.3L16 7.7c-.1 0-.2-.1-.2-.1z"/></svg>
-									<a href="tel:+15878326330">587-832-6330</a>
-						</li>
+		      <div class="col-md-4 column">
+                <p><i class="clr"></i></p>
+                <h4 class="clr marginbot">User Research</h4>
+                <p>Planning and conducting interviews, contextual inquiries, surveys, task analysis, usability evaluation, testing, etc.<br/><br/> Observing, asking, discussing, learning about the <strong>users and their needs</strong>.
+		      </div>
+		      <div class="col-md-4 column">
+                  <p>
+                     <i class="clr"></i></p>
+                <h4 class="clr marginbot">Cross-platform UI</h4>
+                <p>Creation of user interfaces across various media, including <strong>web</strong>, <strong>mobile</strong>, <strong>tablets</strong> and <strong>desktops</strong> in compliance with the respective visual and interaction design guidelines.</p>
+		      </div>
+                <div class="col-md-4 column">
+                  <p><i class="clr"></i></p>
+                <h4 class="clr marginbot">Information Architecture</h4>
+                <p>Researching, testing and mapping information in order to organize, structure and label content into a <strong>usable and findable form</strong>, to inform content strategy, user interface & interaction design.</p>
+		      </div>
+		      <div class="col-md-4 column">
+                  <p><i class="clr"></i></p>
+                <h4 class="clr marginbot">Wireframing &amp; Prototyping</h4>
+                <p>Synthesizing the findings of user and product research into static or dynamic mock-ups, and low- and high-fidelity prototypes <strong>to test with the users</strong> and iterate designs.</p>
+		      </div>
+		      
+              <div class="col-md-4 column">
+                  <p>
+                     <i class="clr"></i></p>
+                <h4 class="clr marginbot">Continuous Optimisation</h4>
+                <p>Conducting reviews, face-to-face and remote tests, studying eye-tracking and analytics in order to <strong>optimize</strong> designs, decrease margin for user error, <strong>improve</strong> usability, and <strong>measure</strong> product performance.</p>
+              </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+  
+
+
+
+
+    
+    <!-- Portfolio Grid Section -->
+    <section class="success bgclr" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Work</h2>
+                </div>
+            </div>
+            <div class="row">
+                
+
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModalRefme1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption bgclr88">
+                            <div class="caption-content">
+                                <p>Process</p>
+                                <p>2015</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cakerefme.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+
+                 <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModalKrtxt" class="portfolio-link" data-toggle="modal">
+                        <div class="caption bgclr88">
+                            <div class="caption-content">
+                                <p>Case Study</p>
+                                <p>2018</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cakeKrtxt.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModalCmn" class="portfolio-link" data-toggle="modal">
+                        <div class="caption bgclr88">
+                            <div class="caption-content">
+                                <p>Process</p>
+                                <p>2020</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cakecmn.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModalLfck" class="portfolio-link" data-toggle="modal">
+                        <div class="caption bgclr88">
+                            <div class="caption-content">
+                                <p>Examples</p>
+                                <p>2014</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/lifecakelogo.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption bgclr88">
+                            <div class="caption-content">
+                                <p>Process</p>
+                                <p>2013</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cakePe.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption bgclr88">
+                            <div class="caption-content">
+                                <p>Examples</p>
+                                <p>2012</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cakelbs.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+               
+    
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>CV</h2>
+                    
+                </div>
+            </div>
+            
+        
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                    
+            </div>
+            
+            <div class="row">
+                
+              
+		<div class="col-md-7 column">
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+                    <div><h3>Work Experience</h3></div>
+                    
+                    
+                    <!--START-->
+                    <div class="width100">
+                    <div class="job">
+                        <span class="when">2021-Present</span>
+                        <h4 class="clr">Head of UX</h4>
+                        at <b>Wizeclub Education</b>, Remote, Canada
+                    </div>
+                    
+                    <ul class="cvlist">
+                    <li>Redesigned the online education platform, resulting in a <strong>75% increase in user
+                        engagement</strong> and a <strong>40% boost in course completion rates</strong></li>
+                    <li>Streamlined onboarding, cutting average time by 60%</li>
+                    <li>Directed a cross-functional team of 7, improving collaboration and project
+delivery speed by 50%</li>
+                    <li>Established user feedback loops and integrated analytics, driving a <strong>70%
+                        increase in feature adoption</strong> rates</li>
                         
-                        <li>
-                        	<svg fill="#000" width="16" height="16" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><path d="M58.502 1h-52.9c-2.5 0-4.5 2-4.5 4.5v53c0 2.4 2 4.5 4.5 4.5h52.7c2.5 0 4.5-2 4.5-4.5V5.4c.2-2.4-1.8-4.4-4.3-4.4Zm-39.1 52.7h-9.1V24.2h9.1v29.5Zm-4.6-33.6c-3 0-5.3-2.4-5.3-5.3s2.4-5.3 5.3-5.3 5.3 2.4 5.3 5.3-2.2 5.3-5.3 5.3Zm39.1 33.6h-9.1V39.4c0-3.4-.1-7.9-4.8-7.9-4.8 0-5.5 3.8-5.5 7.6v14.6h-9.1V24.2h8.9v4.1h.1c1.3-2.4 4.2-4.8 8.7-4.8 9.3 0 11 6 11 14.2v16h-.2Z"/></svg>
-                        <a href="https://www.linkedin.com/in/thomsheva/" target=”_blank”>linkedin.com/in/thomsheva</a>
-                    	</li>
-						<li>
-							<svg fill="#000" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64" xml:space="preserve"><path d="m47 26.3.5-1.1.5 1.1c.4.9 1.3 1.4 2.3 1.4s1.8-.5 2.3-1.4l2.5-5.1c.6-1.1.1-2.5-1-3s-2.5-.1-3 1l-.8 1.5-.5-1.1c-.4-.9-1.3-1.4-2.3-1.4-1 0-1.8.5-2.3 1.4l-.5 1.1-.7-1.6c-.6-1.1-1.9-1.6-3-1-.6.3-1 .9-1.2 1.5-.1-.6-.6-1.2-1.2-1.5-1.1-.6-2.5-.1-3 1l-.8 1.5-.5-1.1c-.4-.9-1.3-1.4-2.3-1.4-1 0-1.8.5-2.3 1.4l-.5 1.1-.8-1.5c-.6-1.1-1.9-1.6-3-1-.6.3-1 .9-1.2 1.5-.1-.6-.6-1.2-1.2-1.5-1.1-.6-2.5-.1-3 1l-.8 1.5-.5-1.1c-.4-.9-1.3-1.4-2.3-1.4s-1.8.5-2.3 1.4l-.5 1.1-.8-1.5c-.6-1.1-1.9-1.6-3-1-1.1.6-1.6 1.9-1 3l2.5 5.1c.4.9 1.3 1.4 2.3 1.4 1 0 1.8-.5 2.3-1.4l.5-1.1.5 1.1c.4.9 1.3 1.4 2.3 1.4 1 0 1.8-.5 2.3-1.4l2.5-5.1c.1-.2.1-.3.2-.5 0 .2.1.3.2.5l2.5 5.1c.4.9 1.3 1.4 2.3 1.4 1 0 1.8-.5 2.3-1.4l.5-1.1.5 1.1c.4.9 1.3 1.4 2.3 1.4 1 0 1.8-.5 2.3-1.4l2.5-5.1c.1-.2.1-.3.2-.5 0 .2.1.3.2.5l2.5 5.1c.4.9 1.3 1.4 2.3 1.4.9.1 1.8-.5 2.2-1.3z"/><path d="M58.4 7.3H5.6C2.9 7.3.8 9.5.8 12.2v21.2c0 2.7 2.2 4.9 4.8 4.9h31.7c1.2 0 2.3-1 2.3-2.3s-1-2.3-2.3-2.3H5.6c-.2 0-.3-.2-.3-.4V12.2c0-.2.1-.4.3-.4h52.9c.2 0 .3.2.3.4v21.2c0 .2-.2.4-.4.4-1.2 0-2.3 1-2.3 2.3s1 2.3 2.3 2.3c2.7 0 4.9-2.2 4.9-4.9V12.2c0-2.7-2.2-4.9-4.9-4.9z"/><path d="m61.3 43.9-14.1-7.1c-1.2-.6-2.6-.4-3.4.5-.9.9-1.1 2.3-.5 3.5l7.1 14.1c.6 1.1 1.7 1.9 3 1.9h.1c1.1 0 2.1-.7 2.5-1.7l1.7-3.9 3.9-1.7c1-.4 1.6-1.4 1.7-2.5-.1-1.4-.8-2.6-2-3.1zm-7.1 3.8-1.1 2.5-3.7-7.3 7.3 3.7-2.5 1.1z"/></svg>
- 						<a href="https://thomsheva.github.io/">thomsheva.github.io</a>
- 						</li>
-					</ul><br/><br/>
+                        </ul>
+                        
+                        <br/>
+                    </div>
+                    <!--STOP-->
+                    <!--START-->
+                    <div class="width100">
+                    <div class="job">
+                        <span class="when">2019-2021</span>
+                        <h4 class="clr">Head of Design</h4>
+                        @ <b>Cómon Agency</b>, London, UK
+                    </div>
+                    <ul class="cvlist">
+                        <li>Optimized media funnels for clients’ Kickstarter campaigns, achieving <strong>200%-450% of funding goals</strong></li>
+                        <li>Supervised a cross-functional team of 5, improving delivery speed by 50%</li>
+                        <li>Developed creative direction for client projects, increasing engagement metrics
+by 25%</li>
+                        <li>Implemented a design review process that reduced revision cycles by 50%</li>
+                        
+                        </ul>
+                        
+                        <br/>
+                    </div>
+                    <!--STOP-->
+                   
+                    <!--START-->
+                    <div class="width100">
+                    <div class="job">
+                        <span class="when">2018-2019</span>
+                        <h4 class="clr">Head of Product Design</h4>
+                        @ <b>Kortext</b>, London, UK
+                    </div>
+                    
+                        <ul class="cvlist">
+                        <li>Delivered a product roadmap for web and mobile, achieving <strong>156% YoY growth</strong> in B2C eCommerce</li>
+                        <li>Initiated the shift from waterfall to agile product delivery, improving efficiency by 50%</li>
+                        <li>Managed a Research & Design team of 5-8, reducing revision times by 50%</li>
+                        <li>Redesigned the online store, leading to a <strong>3x increase in user satisfaction</strong></li>
+                        </ul>
+                       
+                    <br/><p><a href="#portfolioModalKrtxt" class="portfolio-link hyperlink" data-toggle="modal">Read Company Transformation Case Study &#x2192;</a></p><br/>
+                    </div>
+                    <!--STOP-->
+                    <!--START-->
+                    <div class="width100">
+                    <div class="job">
+                        <span class="when">2017-2018</span>
+                        <h4 class="clr">User Experience Design Lead</h4>
+                        @ <b>KPMG</b>, London, UK
+                    </div>
+                    <ul class="cvlist">
+                    <li>Delivered multi-million dollar consulting projects for banking and oil & gas sectors, resulting in a <strong>40%-60% improvement in user task efficiency</strong></li>
+                    <li>Guided teams through research, design, and development cycles, <strong>enhancing delivery speed by 30%</strong></li>
+                    <li>Conducted competitive analysis and usability evaluation for an internal portal, leading to a <strong>50% increase in user retention</strong></li><br/><br/><br/>
+                    </ul>
+                    <!--STOP-->
+                    <!--START-->
+                    <div class="width100">
+                    <div class="job">
+                        <span class="when">2015-2017</span>
+                        <h4 class="clr">User Experience Lead</h4>
+                        @ <b>RefME (acquired by Chegg, Inc.)</b>, London, UK
+                    </div>
+                    
+                    <ul class="cvlist">
+                    <li>Led a cross-functional team to launch a product that became <strong>#1 worldwide</strong>, resulting in a 200% increase in user base</strong></li>
+                    <li>Contributed to rapid growth, reaching over <strong>1.5 million users globally in under two years</strong></li>
+                    <li>Developed cross-platform designs, improving user satisfaction scores by 50%</li>
+                    <li>Facilitated brainstorming sessions that generated over 30 new feature ideas</li>
+                    </ul>
+                        
+                    <br/>
+                    <p><a href="#portfolioModalRefme1" class="portfolio-link hyperlink" data-toggle="modal">Read the World #1 Product Launch Case Study &#x2192;</a></p><br/>
+                    </div>
+                    <!--STOP-->
+                    <!--START-->
+                    <div class="width100">
+                    <div class="job">
+                        <span class="when">2012-2015</span>
+                        <h4 class="clr">UX Designer</h4>
+                        @ <b>Lifecake (acquired by Canon Inc.)</b>, London, UK
+                    </div>
+                    
+                    <ul class="cvlist">
+                    <li>Contributed to growth from <strong>0 to 350,000 registered users</strong></li>
+                    <li>Optimized onboarding, doubling retention rates and increasing conversions by 70%</li>
+                    <li>Responsible for product design across all platforms (Web, iPhone, Android, Windows, and Mac), resulting in a <strong>30% increase in user satisfaction scores</strong></li>
+                    <li>Conducted user testing sessions that provided actionable insights, leading to a <strong>90% reduction in user error rates</strong></li>
+                    </ul>    
+         
+                    <br/>
+                    <p><a href="#portfolioModalLfck" class="portfolio-link hyperlink" data-toggle="modal">See more info &#x2192;</a></p><br/>
+                    </div>
+                    <!--STOP-->
+			     </div>
+            </div>
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+                    <div class="readcosy">
+                    <div><h3>Education</h3></div>
+                    
+                    <!--START-->
+                    <div class="width100">
+                        <span class="when">2012</span>
+                        <h4 class="clr">Graphic Design, BA Hons</h4>
+                        @ <b>Kingston University</b>, London, UK
+                    </div>
+                    <!--STOP-->
+                    <!--START-->
+                    
+                    <!--STOP-->
+                    </div></div>
+			</div>
+            
+            <div class="row clearfix">
+				<div class="col-md-12 column">
+                    <div class="readcosy">
+                    <div><h3>Interests in life</h3></div>
+                    <div class="width100">
+                    <p>Typography, photography, video production, music (both listening and creating), reading, cycling to work and across continents, running, skiing, windsurfing, wakeboarding, UX design trends, and technology exploration.</p>
+                    </div>
+                    </div>
 				</div>
+			</div>
+            
+		</div>
+            </div>
+		<div class="col-md-5 column">
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+                    <div><h3>Skills</h3></div>
+                    <div class="width100">
+                        
+                        <ul class="skills">
+                            <li class="levelskl" style="width:100%">Product Design</li>
+                            <li class="levelskl" style="width:96%">Information Architecture</li>
+                            <li class="levelskl" style="width:98%">User Research</li>
+                            <li class="levelskl" style="width:98%">Crossplatform UI Design</li>
+                            <li class="levelskl" style="width:97%">Interaction Design</li>
+                            <li class="levelskl" style="width:97%">Visual Design</li>
+                            <li class="levelskl" style="width:100%">Usability Evaluation</li>
+                            <li class="levelskl" style="width:100%">Wireframes</li>
+                            <li class="levelskl" style="width:100%">Prototypes</li>
+                            <li class="levelskl" style="width:92%">Content Strategy</li>
+                            <li class="levelskl" style="width:100%">Design Systems</li>
+                            <li class="levelskl" style="width:94%">Analytics</li>
+                            <li class="levelskl" style="width:100%">Agile/Scrum</li>
+                            <li class="levelskl" style="width:100%">Lean UX</li>
+                            <li class="levelskl" style="width:40%">HTML, CSS</li>
+                            <li class="levelskl" style="width:98%">Typography</li>
+                            <li class="levelskl" style="width:88%">Print Design</li>
+                            <li class="levelskl" style="width:65%">Video editing</li>
 
-				
-			</footer>
+                            
+                            <li class="levelpro" style="width:100%">Cross-Functional Collaboration</li>
+                            <li class="levelpro" style="width:100%">Strategic Vision</li>
+                            
+                            <li class="levelpro" style="width:100%">Stakeholder Management</li>
+                            <li class="levelpro" style="width:100%">Team Leadership</li>
+                            <li class="levelpro" style="width:100%">Conflict Resolution</li>
+                            <li class="levelpro" style="width:100%">Performance Evaluation</li>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+                            <li class="levelpro" style="width:100%">User-Centered Design</li>
+                            <li class="levelpro" style="width:100%">Design Thinking Culture</li>
+                            <li class="levelpro" style="width:100%">Data-Driven Design</li>
+                            <li class="levelpro" style="width:100%">Project & Product Management</li>
+                            <li class="levelpro" style="width:100%">Business Acumen</li>
 
-	</body>
+                            <li class="levelspe" style="width:100%">Adaptability</li>
+                                                        
+                            <li class="levelhob" style="width:92%">Cycling</li>
+                            <li class="levelhob" style="width:55%">Running</li>
+                            <li class="levelhob" style="width:66%">Downhill Skiing</li>
+                            <li class="levelhob" style="width:33%">Windsurfing</li>
+                            <li class="levelhob" style="width:43%">Wakeboarding</li>
+                        </ul>
+                        
+                    </div>
+				</div>
+			</div>
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+                    <div><h3>Software</h3></div>
+                    <div class="width100 soft">
+                        
+    <div class="software"><div class="software-icon" style="background-color: white; color: #A259FF;">F</div><div class="software-sub">Figma</div></div>
+    <div class="software"><div class="software-icon" style="background-color: #FDAD00; color: whitesmoke;">Sk</div><div class="software-sub">Sketch</div></div>
+    
+    <div class="software"><div class="software-icon" style="background-color: #FFD02F; color: black;">m</div><div class="software-sub">Miro</div></div>
+    <div class="software"><div class="software-icon" style="background-color: #ffffff; color: #233456; border:4px solid #2186FF;"><b>J</b></div><div class="software-sub">Jira</div></div>
+    <div class="software"><div class="software-icon" style="background-color: #0079BF; color: white;">Tr</div><div class="software-sub">Trello</div></div>
+    <div class="software"><div class="software-icon" style="background-color: white; color: #00B4FF;">M</div><div class="software-sub">Marvel</div></div>                   
+
+    <div class="software"><div class="software-icon" style="background-color: #001E36; color: #31A8FF;">Ps</div><div class="software-sub">Photoshop</div></div>
+    <div class="software"><div class="software-icon" style="background-color: #330000; color: #FF9A00;">Ai</div><div class="software-sub">Illustrator</div></div>
+                        
+                        
+
+    <div class="software"><div class="software-icon" style="background-color: rgb(70, 0, 62); color: #FF61F6;">Dw</div><div class="software-sub">Dreamweaver</div></div>
+                        
+    <div class="software"><div class="software-icon" style="background-color: #49021F; color: #FF3366;">Id</div><div class="software-sub">InDesign</div></div>
+                        
+    <div class="software"><div class="software-icon" style="background-color: #ffffff; color: #4d4d4d; border:4px solid #219fda;"><b>[ ]</b></div><div class="software-sub">Brackets</div></div>
+                        
+    <div class="software"><div class="software-icon" style="background-color: #4c4c4c; color: #FF9702;">S</div><div class="software-sub">Sublime Text</div></div>
+    <div class="software"><div class="software-icon" style="background-color: #721a14; color: #ffffff;">b</div><div class="software-sub">Balsamiq</div></div>
+    <div class="software"><div class="software-icon" style="background-color: #50cdf5; color: #ffffff;">io</div><div class="software-sub">Proto.io</div></div>
+    <div class="software"><div class="software-icon" style="background-color: #dca95c; color: #935d2e;">POP</div><div class="software-sub">POP</div></div>
+    <div class="software"><div class="software-icon" style="background-color: #58aee0; color: #ffffff;">a</div><div class="software-sub">Axure</div></div>
+    <div class="software"><div class="software-icon" style="background-color: #ed650e; color: #000000;">G</div><div class="software-sub">Gimp</div></div>
+    <div class="software"><div class="software-icon" style="background-color: #ffffff; color: #003366;">So</div><div class="software-sub">SourceTree</div></div>
+    
+                        
+                    </div>
+				</div>
+			</div>
+			
+        </div>
+              
+                
+            </div>
+             
+        </div>
+        
+        <!--
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="#" class="hyperlink" target="_blank">View CV in PDF &#x2192;</a>
+                <br/><br/>
+            </div>
+        -->
+    </section>
+
+     <!-- About Section -->
+    <section id="tv" class="telly">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>TV</h2>
+                </div>
+            </div>
+            <div class="row telly expertise">
+                
+              
+                <div class="col-md-4 column">
+                
+                <video class="video" controls>
+                    <source src="tv/DeathV.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Death Valley, CA</p>
+                
+
+                </div>
+
+                <div class="col-md-4 column">
+                
+                <video class="video" controls>
+                    <source src="tv/madeira.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Madeira, Portugal</p>
+                
+
+                </div>
+
+                <div class="col-md-4 column">
+                
+                <video class="video" controls>
+                    <source src="tv/ldn.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Dalston, London</p>
+                
+
+                </div>
+
+                <div class="col-md-4 column">
+                
+                <video class="video" controls>
+                    <source src="tv/akyaka.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Akyaka, Türkiye</p>
+                
+
+                </div>
+
+                <div class="col-md-4 column">
+                
+                <video class="video" controls>
+                    <source src="tv/mtpan.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Mount Panorama Circuit, Australia</p>
+                
+
+                </div>
+                
+                <div class="col-md-4 column">
+                
+                <video class="video" controls>
+                    <source src="tv/copad.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Cappadocia, Türkiye</p>
+                
+
+                </div>
+
+                <div class="col-md-4 column">
+                
+                <video class="video" controls>
+                    <source src="tv/spectr.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Köln, Germany</p>
+                
+
+                </div>
+
+                <div class="col-md-4 column">
+                
+                <video class="video" controls>
+                    <source src="tv/sea.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Harwich, England</p>
+                
+
+                </div>
+
+                <div class="col-md-4 column">
+                
+                <video class="video" controls>
+                    <source src="tv/greece.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Athens, Greece</p>
+                
+
+                </div>
+
+
+
+
+                
+
+              
+
+              
+
+              
+               
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+        <section id="contacts" class="getintouch">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contacts</h2>
+                </div>
+            </div>
+            <div class="row expertise">
+                
+                <div class="col-md-4 column">
+                <div class="contactsp>" style="text-align: center;"><p>thomsheva.design@gmail.com</p></div>
+                </div>
+
+                <div class="col-md-4 column">
+                <div class="contactsp>" style="text-align: center;"><p><a href="tel:+15878326330">+1-587-832-6330</a></p></div>
+                </div>
+
+                <div class="col-md-4 column">
+                <div class="contactsp>" style="text-align: center;"><p>Vancouver, BC<br/>London, UK</p></div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+        
+
+
+
+<footer class="text-center">
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-lg-12">
+                         2010-2024 Copyright &copy; Thom Sheva
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visble-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Portfolio Modals -->
+ 
+
+<div class="portfolio-modal modal fade" id="portfolioModalRefme1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="containerportfolio">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="modal-body">
+             
+            <h2>RefME, London</h2>
+                            
+                            <p><b>RefME</b> was solving a problem created by historical, regional, and institutional academic diversity, autonomy and freedoms. (Which are all good things, don’t get me wrong.)</p>
+
+                            <p>The company provided services to automate citations and bibliographies in about 7,000 referencing styles and variations. Why do humans have that many referencing styles? See the paragraph above.</p>
+                                
+
+                
+
+            <h3><span class="bgclr mrgnr">B</span>usiness goal</h3>
+
+                            <p>One white-clouded London morning, sometime in 2015, the startup investment market shifted, as it does.</p>
+                            <p>In the new reality, we were no longer chasing solely user growth; we now needed data, a lot more of it, and we’d better find a way to productise it too.</p>
+                            <p> So the goals we were aiming for were:<br/>
+                                1) Drive exponential growth in the user base<br/>
+                                2) Collect exponentially more data on referencing patterns to create insights and products for future B2B clients, such as publishers and educational institutions
+                                </p>
+
+
+            <h3><span class="bgclr mrgnr">M</span>y role</h3>
+                            <p>I was entrusted with the responsibility and honour of leading a diverse and talented team, comprising design specialists, back-end and front-end engineers, a referencing-styles expert, and an SEO professional.<br/><br/>
+                            We had the freedom of self-organisation, autonomy in decision-making, flexibility in our approach and ability to adapt our methods. Everybody on the team understood what we were doing and why. We had clear KPIs derived from our business goals and a looming seasonal spike in demand for bibliography generators as our deadline.</p>
+            <h3><span class="bgclr mrgnr">U</span>ser need</h3>
+                            <p><b>Get an essay's bibliography completed in a specific style.</b></p>
+                            <p>Our customers were students and academic researchers. They were very different cohorts. Undergrads and senior researchers. Both needed their bibliographies to be generated accurately in the correct style, but they needed rather different products to do that. Researchers, they needed a place to organise their sources and bibliographies, save them, come back and access them later, add, edit, and so on. It was their job. So they would carefully consider different tools for their job, pick one and invest in it.</p>
+
+                            <p>For the undergrads, on the other hand, creating bibliographies was not their job — it was a problem... It was a tedious and unwelcome burden. They just wanted to get it done as quickly as possible and return to their exciting lives on the campus. So, when the (boring) bibliography time would come, they would google something like ‘<i>MLA referencing generator</i>’, consider the top three search results, pick one, use it and forget about it.</p>
+
+                            <p>While our current product served the needs of the academic researches well, we knew it wasn't exactly what the students were looking for. The idea was that we might create an additional product, catering for undergraduates only. A simple, clean way to solve <i>their</i> referencing problem quickly and accurately.
+            <h3 ><span class="bgclr mrgnr">C</span>ontext</h3>
+                            <p>The business goal was derived from insights acquired during user research. Drawing from six months of research data comprising interviews, task analysis, user journey maps, user profiles, usability testing with our product, as well as with the competitors'.</p>
+            <h3 ><span class="bgclr mrgnr">R</span>esearch findings</h3>
+                            <p>There were two distinctive segments in our target audience. One type was postgraduate students and academic researchers.</p>
+                            <p>Their research was large and complex, they needed a tool to gather and organise their bibliographies. Consequently, they expected to create an account before accessing the service. Moreover, they were well-informed about various service providers on the market (our competitors), highlighting the significance of branding.</p>
+                            <p><strong>The other demographic consisted of undergraduate students</strong>. Their primary task involved referencing sources in their essays to avoid penalisation. They were instructed on proper source referencing and sought to demonstrate their proficiency in this area.</p>
+                            <p>Essentially, they viewed it as an inconvenience — a problem they aimed to resolve swiftly to return to more enjoyable things in their lives. Additionally, most of them treated each essay as a separate assignment, rarely reusing sources.</p>
+                            <p>They didn't prioritise saving their bibliographies for future use and promptly forgot about them once the essay was submitted. When the need arose to generate their bibliographies, they simply searched for a "<i>citation generator</i>" online, selected one from the top results, used it, copied the generated citations, and inserted them into their texts.</p>
+                            <p>They repeated this process for each new essay, often forgetting the service they had previously used. <strong class="negative">The perceived effort of creating an account outweighed the perceived benefits for this demographic</strong>.</p>
+                            <p>The company's primary product seamlessly integrated with the workflow of the former demographic, the researchers. However, the latter group, the students, perceived our product as overly complicated, with features deemed unnecessary. As a result, <strong class="negative">we had been failing to capture a significant portion of this audience</strong>.</p>
+                            <p>Our team's objective was to <strong>develop and create an additional service</strong> that provided functionality akin to the main product but in a simplified and accessible version, <strong>specifically tailored for undergraduate users</strong>.</p>
+
+
+                <div id="owl" class="owl-carousel owl1">
+                <div class="item"><img class="lazyOwl imageshadow" data-src="img/portfolio/refme/refme0.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl imageshadow" data-src="img/portfolio/refme/refme1.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl imageshadow" data-src="img/portfolio/refme/refme2.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl imageshadow" data-src="img/portfolio/refme/refme3.jpg" alt=""></div>
+            </div>
+                            
+            <h3 ><span class="bgclr mrgnr">P</span>rocess</h3>                
+            
+            
+            <p>As previously mentioned, we leveraged six months of research findings to inform our approach. This included competitive analysis and resulted in the creation of a strategic plan. Additionally, I facilitated a brainstorming session with stakeholders to establish key performance indicators (KPIs) for the project.</p>
+
+                <div id="owl" class="owl-carousel owl1">
+                <div class="item"><img class="lazyOwl imageshadow" data-src="img/portfolio/refme/refme4a.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl imageshadow" data-src="img/portfolio/refme/refme4.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl imageshadow" data-src="img/portfolio/refme/refme5.jpg" alt=""></div>
+            </div>
+            
+            <p>As we were working through the user scenarios into user-flows, organising content, figuring out IA and taxonomy, the hierarchy of functionality and the layout, the wireframes, the prototypes, everybody on the team was involved to share ideas, flag limitations, have their inputs and feedback.</p>
+            <p>While we were developing user flows and wireframes, the engineering team commenced work on the backend infrastructure.</p>
+
+            <div id="owl" class="owl-carousel owl1">
+                <div class="item"><img class="lazyOwl imageshadow" data-src="img/portfolio/refme/refme6.png" alt=""></div>
+                <div class="item"><img class="lazyOwl imageshadow" data-src="img/portfolio/refme/refme7.png" alt=""></div>
+            </div>
+
+
+            <P>We were seeking feedback as often as we could, at different stages of fidelity. We would test with other people in the office, as well as with students, in-person and remotely.</P>
+                <div id="owl" class="owl-carousel owl2">
+                <div class="item"><img class="lazyOwl imageshadow" data-src="img/portfolio/refme/refme8.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl imageshadow" data-src="img/portfolio/refme/refme9.jpg" alt=""></div>
+            </div>
+
+            <p>In order to evaluate user interaction with our design and ensure an optimal user experience, we employed a variety of user research methods.</p> 
+            <p>We utilised heatmaps to visualise areas of high engagement and identify potential usability issues, enabling us to make data-driven refinements. Additionally, we conducted 5-second tests to assess the effectiveness of our visual hierarchy, allowing us to optimise key design elements for better user comprehension and navigation.</p>
+            <p>Usability testing, and A/B testing were also employed to gather user feedback and preferences, ensuring our design decisions aligned with user needs and expectations.</p>
+            <figure><img class="imageshadow" src="img/portfolio/refme/refmeheatmap.png" width="100%"/><figcaption>Citation Generator heatmap.</figcaption></figure>
+
+            <p>We collaborated with the UI and visual designers to translate wireframes into polished designs.</p>
+            <p>I created quick click-through prototypes to get the feel of the new interface and also to evaluate with the developers and get their feedback.</p>
+
+                <div id="owl" class="owl-carousel owl1">
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/refme/gen1.png" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/refme/gen2.png" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/refme/gen3.png" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/refme/gen4.png" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/refme/gen5.png" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/refme/gen6.png" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/refme/gen7.png" alt=""></div>
+            </div>
+
+            <p>While the back-end team advanced, I worked closely with our in-house referencing specialist to ensure the accuracy of the newly developed referencing engine.</p>
+            <p>Given the peak season for essay writing (November) was approaching, there was a sense of urgency. Quick and efficient collaboration and execution from all team members was necessary.</p>
+            <p>We partnered with the front-end developer, expediting the process and allowing us to fix bugs on the fly. Meanwhile, the back-end got finished and automated tests for the engine started.</p>
+            <p>By the time the engineers were putting the finishing touches, I had already begun sharing videos of the first customers using the product (closed testing). The interface they have just built. And it would bring smiles to the devs’ faces. Because people were having no problems using the product. So, for an engineer, it wasn’t just a matter of picking up a personless ticket in Jira and working on it just to move it into ‘<i>Code review</i>’ and then into ‘<i>Ready for release</i>’. As they worked on a ticket, they knew that they were making something for a real person who would be using it.</p>
+
+                
+             <h3><span class="bgclr mrgnr">R</span>esults</h3>
+                            
+                     
+             <p>We did a soft launch at the beginning of October, just in time for the seasonal spike in demand. We geared up all the analytics tools and watched vigilantly.
+                The numbers were dropping a bit during the weekends (understandably) but overall grew steadily:</p>
+                <figure><img class="imageshadow" src="img/portfolio/refme/g1.png" width="100%"/><figcaption>Usage analytics for the first month after the launch.</figcaption></figure>
+                <p>By the next peak season (the following spring) the numbers doubled and continued to grow:</p>
+                <figure><img class="imageshadow" src="img/portfolio/refme/g2.png" width="100%"/><figcaption>Usage analytics for the first eight months.</figcaption></figure> 
+                <p>Are you thinking about the part of the graph above where the line goes down? That’s summertime.<br/><br/>
+                By the summer, the Citation Generator became the company’s most used platform:</p>
+                <figure><img class="imageshadow" src="img/portfolio/refme/g3.png" width="100%"/><figcaption>Citation Generator takes the lead as the most favoured platform.</figcaption></figure> 
+                <p>During the summer, the demand was understandably low. By autumn, our SEO optimisation brought results: Citation Generator became <strong>#1 in Google, and around its first birthday, the product started to break the company’s all-time records</strong>.</p>
+
+
+                <h3><span class="bgclr mrgnr">L</span>earnings</h3>
+
+                <p>This was a very enjoyable and rewarding project to work on. We worked as a small cross-functional unit, and that allowed us to communicate better and move faster.</p>
+                <p>This project was a success, but it wasn’t a surprise: we built on solid knowledge and understanding; the strategy and decisions were well informed by the research; we tested and we evaluated every step; we collaborated; we had all the necessary skills on our team; we had a deadline that we could not afford to miss.</p>
+                <p>So our progress was quite linear and efficient. Was it ideal and without any friction? Certainly not. We’re all human. Of course, there were disagreements and arguments and misunderstandings and miscommunications. The developers would say <i>“It’s impossible!”</i>, as some developers do. And the designers would respond with <i>“Please don’t talk to us like we don’t know nothing about the front-end, because we do!”</i>, as good designers would do. Except, they didn’t say it like that, they would just think that. What they did say were more detailed questions and suggestions. And so the discussion would continue. There were intense conversations  with SEO too. What goes into the product for <i>the user</i> and what goes in for Google's <i>indexing robots</i>? And on top of the professional questions, there were also instances of personality differences. We’re all human.</p>
+
+                <p>But also, there was understanding and synergy, and support, and banter, and laughs, and a sense of team, and a sense of progress, and a sense of reward.</p>
+                <p><strong>I learnt a lot about managing a team</strong>, about keeping people focused and giving them <strong>a sense of ownership</strong> and responsibility, about motivating and giving feedback.</p>
+                
+
+
+
+
+
+
+     
+            
+                            
+                    
+                            
+                            
+
+        
+                            <ul class="list-inline item-details">
+                                <li>Company:
+                                    <strong class="footers"><a class="clr" href="https://www.refme.com" target="_blank">RefME</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong class="footers clr">2015-2017
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong class="footers clr">Strategy, Cross-functional lead, Research, IA, Scenarios, User Flows, Wireframes, Prototypes, User testing, UI Design, Implementation overview, SEO, Analytics, Product optimisation
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>&#x2190; Go back to Works</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+<div class="portfolio-modal modal fade" id="portfolioModalKrtxt" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="containerportfolio">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="modal-body">
+             
+            <h2>Kortext, London</h2>
+            <p>A story of successfully driving design change against the odds.</p>   
+            <br/><br/>
+            
+            <p>PART ONE</p>               
+            <h3><span class="bgclr mrgnrt">U</span>nderestimated Challenge Accepted</h3>
+                            
+
+
+
+
+                            <p>Here’s a real story that happened some time ago.</p>
+            <p>Some people I had previously enjoyed working with were luring me into this new company they were at. And what did lure me in, apart from the opportunity to work with these great people again, was the challenge that I saw for myself there.</p>
+            <p>I realised there could be an interesting opportunity there while discussing the company’s structure and product delivery workflow. Let me quickly tell you about the company’s structure. In broad brush strokes.</p>
+            <figure><img class="imageshadow" src="img/portfolio/Krtxt/ocean.jpg"/><figcaption>Image 1: A waterfall over the ocean.</figcaption></figure>
+            <p>The main offices were in England, and all the departments were based there, except the Engineering, which was based in Canada.</p>
+
+            <p>The Engineering department was quite large, with different teams and multiple tiers of management, all the way up to the CTO. There were Sales and Marketing teams, the product was targeted at both B2B and B2C customers.</p>
+
+            <p>The Product team consisted of several Product Managers, and was led by a Head of Product, but was not represented at the C-level. There was no Design team as such. There was a UX designer and a visual designer, attached to Marketing. The Customer Support (probably called “Customer Success”, but I can’t say I remember for sure) consisted of about 4 or 6 employees with two tiers of management.</p>
+
+            <p>Of course, I could foresee some potential friction in the collaboration with the Engineering, due to the teams being separated by an ocean and a hand-off process, and also maybe some difficult conversations with the Sales, who might be advocating for the B2B clients’ requests that might not align with end-users’ needs. But overall I was looking forward to it, thinking about the positive aspects of sharing ideas, discussing opportunities and limitations with these teams.</p>
+
+            <p>It was this stark contrast between the (absence of) Design team and the (complexity and numbers of) Customer Support team that was the writing on the wall for me. You see, by that time, I had worked in dynamic start-ups as well as in corporate environments, which taught me the valuable lessons of what works, what doesn’t, and why, and how to fix it if it doesn’t work, and how it looks when it does work.</p>
+
+            <p>In other words, I knew what I was looking at. And I knew that I could be of value to this business. And I knew what to do. And I felt very excited by this challenge. As I do.</p>
+
+            <p>So I accepted the offer and joined the team. What I didn’t know was how strikingly I had underestimated the challenge.</p>
+
+            <p>But if you, dear reader, are rooting for the protagonist of this story (me) and are worried about any negative outcomes of this underestimation, I'm itching to let you know that this story has a happy ending. Well, at least for me. And for the business too. And for the product, and the people using it. So let us continue.</p>
+
+            <p>I joined the company as the Head of Product Design. I joined with the intention of making a positive impact on the business, namely: an improved product experience for the customers, a stronger Design and Research team (to inform business strategy and lead the development of a product that people would love), and better cross-department communication (with Marketing, Engineering, Sales, Customer Support) to inform Design decisions.</p>
+
+            <p>In the first month or so, while having intro meetings and one-on-ones with different people from different departments, and while keeping an eye on the UX projects currently in the works, I dedicated most of my time to conducting thorough research of the product, and the industry, and the competition, and the people using the product, and their contexts, and their tasks, and their needs, and expectations, and considerations, and so on. As I do.</p>
+
+            <p>The result of this research was something I unimaginatively called “UXD Strategy” (as in User Experience Design) and consisted of a number of project suggestions. The underlying document for this UXD Strategy was a comprehensive user journey map that included all the touchpoints a customer would have with the company’s product, starting with marketing promo materials and all the way to the interface to delete the account, if the customer wished so, and everything in between. It is this bit of <i>‘everything in between’</i> which was of the most utility. It was a graph, with all the touchpoints represented progressively along the horizontal axis, while the vertical axis represented customers’ mood on a scale from <i>“Oh, I am so delighted rn, I literally can’t wait to tell all my friends about this great product”</i> all the way down to <i>“Jesus Christ, god almighty, why are you testing me with this treacherous interface? There’d better be Paradise!”</i>. It looked a little bit like this:</p>
+
+            <figure><<img class="imageshadow" src="img/portfolio/Krtxt/journey.jpg"/><figcaption>Image 2: An undulating journey.</figcaption></figure>
+
+            <p>The touchpoints of the user journey were connected by a line, to signify a <i>continuous journey</i> and a <i>holistic perception</i> of the product.</p>
+
+            <p>This line was quite undulating, sometimes staying quite high on the vertical <i>happiness</i> scale, sometimes diving down to the unacceptable depths of misery and despair.</p>
+
+            <p>As I mentioned before, my UXD Strategy was suggesting a number of projects. They were divided into two phases:</p>
+
+            <p>Shorter Phase 1, to normalise user experience.</p>
+
+            <p>Longer Phase 2, to increase revenue by adding utility to the product, making the experience more enjoyable, improving retention and referral, and so on.</p>
+
+            <p>The first phase was, simply put, bringing all the deep dips in the undulating journey map up above an acceptable level. Making the experience okay. Not great yet, but acceptable. Because, say what you will, but a working TV, even if it’s not 65-inch wide, is more enjoyable than the one that randomly switches channels or switches itself off.</p>
+
+            <figure><img class="imageshadow" src="img/portfolio/Krtxt/normjourney.png"/><figcaption>Image 3: Normalising the experience.</figcaption></figure>
+
+            <p>As I had been working on my UXD Strategy, I would share my ideas with the designers and with the people who had lured me in, in the first place. Their feedback was important to me, we discussed things, and generally agreed that that wasn’t a bad thing to do.</p>
+
+            <p>The next logical step was, of course, to share these ideas with the Product and the business, and have the projects from my UXD Strategy included in the backlog, prioritised against the existing projects there, and included in the product roadmap, as per business impact slash business effort.</p>
+
+            <p>The first hint of the upcoming surprise materialised when I was discussing these ideas of mine with the Head of Product’s right arm - a Senior Product Manager, I think her role was called, but I don’t remember for sure. Our discussion concluded with her words: “Well, good luck trying to persuade our Head of Product to change the roadmap. There is no chance of that happening.” (She said that as if it were a good thing to say.)</p>
+
+            <figure><<img class="imageshadow" src="img/portfolio/Krtxt/personally.png"/><figcaption>Image 4: Michael Jordan takes it personally. From Imgflip.</figcaption></figure>
+
+            <p>That is a joke, of course. I had stopped taking professional things personally a long time before that specific moment in my career. I just smiled and thought “Bring it on!”.</p>
+
+            <p>[The screen fades to black for a dramatic theatrical pause.]</p><br/><br/>
+
+
+            <p>PART TWO</p>               
+            <h3><span class="bgclr mrgnrt">D</span>igital <del>Revolution</del> Transformation</h3>
+            
+
+            <p>“The Product roadmap is set in stone and it is not changing for the next year and a half. All the projects have been agreed with the CEO and the Engineering, and there is no room to bring any additional projects in.”</p>
+
+            <p>This was my second meeting with the Head of Product. The first one was an intro one-on-one, and was filled with pleasantries, and general terms like “agile” and “user-centric” and “sprint” and so on.</p>
+
+            <p>This was the first <i>functional</i> meeting, one to discuss work rather than have small talk.</p>
+
+            <p>As I said earlier, I had been prepared to meet some resistance from the Engineering leadership maybe, or some push for features from the Sales. The last department in the company I expected to refuse collaboration was, of course, Product. I came to the meeting energised and excited: my ideas made sense (verified by others), my ideas were shaped into projects that we could prioritise against the existing backlog, and so on.</p>
+
+            <p>Yet, there I was, hitting a solid wall while doing 240 km/h.<br/>
+            And let me assure you, I know what doing 240 km/h feels like. Even without hitting anything, it is scary enough to make your right foot shake on the accelerator, everything in the side windows is a blur, and you start to feel disoriented because the white salt flats of Bonneville stretch out to the horizon in all directions, and you are trying to judge how far that wall of stones that you passed five minutes ago on your way here is, now that you’re moving so fast through space.</p>
+
+            <p>Here’s that wall. <i>“Set in stone”</i>, figuratively speaking.<br/>
+            And here I am, experiencing this exciting impact with this wall while doing 240.</p>
+
+            <p>“...set in stone”, “...a year and a half”, “...agreed with the CEO and the Engineering”, as these words flew through the sunlit office of the Head of Product, I was looking at the nice view behind the window.</p>
+
+            <p>I don’t remember if I was shocked to hear that. Most likely I should have been. What I do remember was thinking this: it is about motivation. While most product owners are normally motivated by increasing revenue, so in turn, by maximising the quality and utility of the product, some others are motivated by completing projects, delivering the deliverables, without worrying about the impact on the product, the experience, and (maybe even?!) the business. It made sense. And the view from the window was pleasant. It was a nice sunny day.</p>
+
+            <p>The meeting was over.</p>
+
+            <p class="separator">---------</p>
+
+            <p>Now, logically speaking, in this peculiar situation, a Head of Design has the luxury of choosing from three options:</p>
+            <ul style="list-style-type: none; font-size: 1.3em;">
+            <li>1) Fight</li>
+            <li>2) Flight</li>
+            <li>3) Milk the cow</li>
+            </ul><br/>
+
+            <p>Let’s start with Option 2 - Flight.<br/><br/>
+            In the hypothetical situation where Research &amp; Design cannot influence the product roadmap, the prospects are quite bleak. Yes, the Head of Design can still build a team, establish the workflows and processes, conduct research, and so on. It is possible to work with whatever is in the roadmap already, and while some of those projects could have benefited from Design input, others were rather limited, due to being so far into development already, and some others, between you and me, were plain useless for the end-user. The Head of Design’s impact on the business would have been minimal and wouldn’t have balanced with the salary the business was assigning to the role.</p>
+
+            <p>Option 3 - Milk the cow.<br/><br/>
+            It was not entirely out of the question to stay, build out the team, deliver shiny prototypes, and detailed personas, and such, organise and attend meetings that would end with the words “Okay, let's reconvene next week and take it from there.”, all the while, enjoying a perfect work and life balance.</p>
+            <p>But that option required accepting that you are not maximising your value to the business, which in my books is unacceptable, because in the words of Hunter S. Thompson: “I’m a total professional”.</p>
+
+            <figure><<img class="imageshadow" src="img/portfolio/Krtxt/pro.png"/><figcaption>Image 5: I'm a total professional. From <i>Where the Buffalo Roam</i>.</figcaption></figure>
+
+            <p>I am a total professional. I chose to drive positive change. Option 1, please and thank you.</p>
+            <p>I knew I was in a decent position for that. The people who had lured me into the company were in leadership roles, and I had their support. I was in a leadership role. I had direct access to the C-level executives, and to everybody else.</p>
+            <p>Now, in telling this story, I do slow down the pace every now and again to provide detailed descriptions of some parts for dramatic effect, but this next part is quite long, so we might as well just imagine a montage of what was happening, shown to the sounds of upbeat music from the 80s.</p>
+            <p>Picture: me pointing to the slides about the use of UX design, about the benefits of a workflow that includes research and design, the slides showing that long undulating journey of a customer along their touchpoints with the product, in a meeting room with the CEO, in the room with all the C-level execs, in a call with the Engineering management, in the CEO’s office, in a wider presentation to the whole team in the office, in the CEO’s office again, me interviewing new designers, other designers from the team showcasing the improved designs to the wider team, discussions with the Product, travelling over to Canada to meet up with the technical leadership and the engineers in person, delivering presentation to all the developers, showing prototypes, explaining users’ pains, having workshops for specific projects with specific developers, having meetings behind closed doors with the senior Engineering leadership (now, these were so intense, you might as well picture them in black and white), hiring designers, talking to the CEO again, talking to the Product, the Sales, the Customer Support, presenting to the wider team again, and so on, and so forth.</p>
+            <p>As you can see from this montage, there was a lot of effort. Not just from me. A lot of effort from a lot of people. So much so that even the montage of the events could easily last four minutes and five seconds, which, coincidentally, is the length of the ‘Eye of the Tiger’.</p>
+            <p>I apologise, that was a rather low-hanging-fruit joke. Let’s pretend it never happened. We’re very close to the happy ending now, we can’t turn back.</p>
+            <p>So what do you think happened?</p>
+            <p>The idea was met with a lot of positivity from a lot of people: the developers, the people in customer service, the people in product. But it’s not a democracy we’re talking about, and the popular vote wasn’t the deciding factor. The deciding factor was the <i>gradual</i> acceptance by the senior management.</p>
+
+            <p>The projects from the UXD Strategy got into the backlog, where they were prioritised against the existing projects. The product roadmap changed. The engineers started to be more involved in the Design phase, and the designers were involved in the Delivery phase. The people using the product started to see changes. A streamlined sign-up flow, an e-book shop that looked and functioned as expected, a better reading experience, and so on.</p>
+            <p>The number of messages to the Customer Support team started to go down.</p>
+            <p>The Design team introduced a style guide and reusable elements, to standardise and streamline the workflow.</p>
+            <p>A guy from the Customer Support team told me he was interested in retraining as a UX Designer.</p>
+            <p>If nothing else, this last thing is the best symbolic evidence that my challenge was completed, if you remember how it started.</p>
+
+            <p class="separator">---------</p>
+
+            <p>Now, I was hoping to pick up your brains about something.</p>
+            <p>What do you think about this for the ending scene for this story:</p>
+            <p>A mouse pointer is moving across the screen.</p>
+            <p>As the view zooms out, we see the mouse pointer is moving decisively through different screens of an interface, without hesitation or doubt.</p>
+            <p>As the view pans out, we see that it is happening on a screen in a room, a person is controlling the mouse, and another person is watching them.</p>
+            <p>The view keeps panning out to reveal that all this is happening on another screen, a 65-inch TV on a wall in a large room full of people. People from Engineering, and Sales, and Customer Support, and Marketing. And there are smiles on their faces. They are happy to see that. They feel proud.</p>
+            <p>And there are people from Design there as well. They know.</p>
+            <p>Cue, ‘Eye of the Tiger’
+                            
+                            <ul class="list-inline item-details">
+                                <li>Company:
+                                    <strong class="footers"><a class="clr" href="https://www.kortext.com" target="_blank">Kortext</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong class="footers clr">2018-2019
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong class="footers clr">Strategy, Roadmap, Research, IA, Scenarios, User Flows, Wireframes, Prototypes, User testing, UI Design, Implementation overview, SEO, Analytics, Product optimisation
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>&#x2190; Go back to Works</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+    
+    
+   
+
+
+    
+    
+    
+    <div class="portfolio-modal modal fade" id="portfolioModalCmn" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="containerportfolio">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="modal-body">
+             
+            <h2>Cómon Agency, London</h2>                
+            
+            <p><b>Cómon Agency</b> is social media marketing business.</p>
+            <p>They were about to introduce a new product: <strong>a marketing solution for crowdfunding campaigns</strong>, offering features such as <i>targeted advertising</i>, <i>social media promotion</i>, and <i>email marketing</i> to drive traffic and increase crowdfunding pledges.</p>
+            <p>I contributed to the <strong>vision</strong>, <strong>strategy</strong>, and <strong>roadmap for product development</strong>, ensuring alignment with business objectives and user needs.</p>
+            
+            <figure><img class="imageshadow" src="img/portfolio/Cmn/cmnbus.png"/><figcaption>Business overview and KPIs.</figcaption></figure>
+                            
+            <p>I reviewed the organisation's website architecture, usability, and content, identifying challenges and opportunities for improvement to enhance the overall user experience.</p>
+            
+            <h3><span class="bgclr mrgnr">T</span>he Challenge</h3>
+            <p>The challenge of this project was to design a landing page from scratch for <b>Cómon Agency's</b> new marketing tool <strong>aimed at helping customers maximise pledges</strong> for their <i>Kickstarter</i> and <i>Indiegogo</i> campaigns.</p> <p>The goal was to create a visually appealing and user-friendly landing page to <strong>effectively communicate the value proposition of the product and encourage</strong> visitors to sign up and get into the acquisition funnel.</p>
+            
+            
+            <h3><span class="bgclr mrgnr">M</span>y Role</h3>              
+            <p>I led the <strong>end-to-end discovery and design process</strong>, including <i>research</i>, <i>ideation</i>, <i>wireframing</i>, <i>prototyping</i>, and <i>testing</i>.</p>
+            <p>My responsibilities included understanding <strong>user needs</strong>, defining the <strong>product vision</strong>, and <strong>creating a compelling and intuitive landing page</strong> design that resonated with the target audience: entrepreneurs, startups, and creators looking to launch successful crowdfunding campaigns on platforms like Kickstarter and Indiegogo.</p>
+                            
+            <h3><span class="bgclr mrgnr">T</span>he Process</h3>              
+            <p>I began by conducting market research to understand the <strong>competitive landscape</strong> and identify <strong>user considerations and preferences</strong>. I also analysed existing landing pages of similar marketing tools to gather insights into industry best practices.</p>
+                        
+            <p>Based on the research findings and insights from SMEs, I mapped out the <strong>user journey and created user scenarios</strong> to identify what user expectations and needs were at the key touchpoints.</p>
+            <p>The content and the layout of the wireframes focused on communicating the product benefits and the competitive advantages.</p>
+                            
+            <div id="owl" class="owl-carousel owl2">
+                <div class="item"><img class="lazyOwl imageshadow" data-src="img/portfolio/cmn/cmnl1.png" alt=""></div>
+                <div class="item"><img class="lazyOwl imageshadow" data-src="img/portfolio/cmn/cmnl2.png" alt=""></div>
+            </div>
+            
+            <p>Low-fidelity wireframes outlined the layout and structure of the landing page. I iterated on the wireframes based on feedback from stakeholders and created prototypes to run usability tests with users.</p>
+
+            <div id="owl" class="owl-carousel owl2">
+                <div class="item"><img class="lazyOwl imageshadow" data-src="img/portfolio/cmn/cmnw1.png" alt=""></div>
+                <div class="item"><img class="lazyOwl imageshadow" data-src="img/portfolio/cmn/cmnw2.png" alt=""></div>
+                <div class="item"><img class="lazyOwl imageshadow" data-src="img/portfolio/cmn/cmnw3.png" alt=""></div>
+                <div class="item"><img class="lazyOwl imageshadow" data-src="img/portfolio/cmn/cmnw4.png" alt=""></div>
+                <div class="item"><img class="lazyOwl imageshadow" data-src="img/portfolio/cmn/cmnw5.png" alt=""></div>
+            </div>
+                            
+            <p>After testing and iterating, the mock-ups were finalised, and the visual designer converted the wireframes into UI dsigns, incorporating branding elements, colour schemes, and typography to create a clean and modern design.</p>
+                            
+            <h3><span class="bgclr mrgnr">O</span>utcome</h3>
+            <p>The final landing page design showcased the product’s value proposition and communicated its features and benefits to visitors.</p>
+            <p>The new landing page helped to attract new customers, resulting in <strong>200%-450%+ of clients’ Kickstarter campaign goals</strong>.</p>
+                            
+            <h3><span class="bgclr mrgnr">L</span>earnings</h3>
+            <p>During the project, several challenges arose that provided valuable learning opportunities.</p>
+            <p>At times, the project faced scope creep as additional features and functionalities were suggested by stakeholders. This resulted in delays and diverted focus from the primary objectives.</p>
+            <p>Looking back, I realise I should have been more clear with setting the stakeholders’ expectations from the beginning; at the same time, given the project's small team size, we were able to leverage our flexibility and adopt an agile approach to accommodate changes as needed.</p>
+            <p>Certain technical limitations emerged during the implementation phase, impacting the feasibility of certain interactions as envisioned during the design process.</p>
+            <p>Of course, it is crucial to have a solid understanding of technical limitations early in the design process, but we were moving quite fast and some technical decisions were taken after the design process commenced. While this created certain challenges, the advantages ultimately outweighed them.</p>
+                            
+            <h3><span class="bgclr mrgnr">C</span>onclusion</h3>
+            <p>Through research, user-centred design, and iterative refinement, we successfully designed a landing page from scratch for the new marketing tool.</p>
+            <p>After going live with the new designs, we continuously run A/B tests to evaluate different design variations and optimise the conversion of the landing page.</p>   
+                            
+                            <ul class="list-inline item-details">
+                                <li>Company:
+                                    <strong class="footers"><a class="clr" href="https://comon.agency" target="_blank">Cómon Agency</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong class="footers clr">2019-2021
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong class="footers clr">Strategy, Cross-functional lead, Research, IA, Scenarios, User Flows, Wireframes, Prototypes, User testing, UI Design, Implementation overview, SEO, Analytics, Product optimisation
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>&#x2190; Go back to Works</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="portfolio-modal modal fade" id="portfolioModalLfck" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="containerportfolio">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="modal-body">
+                            <h2>Lifecake, London</h2>
+                            
+                            
+            <p><b>Lifecake</b> is a cross-platform cloud service for parents to store, organise and privately share photos, videos and stories of their children only with the people who care, without spamming the entire world on Facebook.</p>
+                <p><b>I have been the first employee</b> at Lifecake. I started with the company as a UI/UX/Web/Graphic designer before the investment rounds, sharing a desk with the founders at Google Techhub in Shoreditch. Naturally, I have been involved in <strong>all aspects of product and experience design</strong> at all stages: from discovery to multiple iterations, including several major redesigns of the <strong>web interface</strong> and native mobile clients for <strong>iPhone</strong>, <strong>iPad</strong> and <strong>Android</strong>.</p>
+            <p>I am briefly describing some of the projects below.</p>
+                            
+                            
+            <h3 ><span class="bgclr mrgnr">i</span>Phone App</h3>
+                            <p>Native iPhone app is the company's flagship, the major user-acquisition channel and the primary live testground for new features. The UI has been tweaked and even changed many times, getting a step closer to the ideal every time.</p><p><b>Users can perform many actions on Lifecake iPhone app:</b> view their content - <i>actively</i> (scrolling the timeline, leaving and responding to comments, favouriting or editing moments; or <i>passively</i> - just sitting back and enjoying a nice travel through time via built-in time machine), invite family and friends or manage their contacts, add new children, connect to friends' accounts, catch up on all the news in the activity centre, create and share new moments.</p>
+            <p>I have had many challenging tasks and projects aimed to improve app's UX. Probably <strong>the most difficult  was the one to optimise onboarding</strong>. The data showed that once a newly registered user invited (successfully) family to share child's timeline the retention rate of that user was much higher. So we had to encourage user to invite as soon as the they created an account. <strong>The main problem</strong> was that the actual onboarding flow was already quite long (initially it was as long as 9-10 steps with lots of forms) and even those users who successfully completed it were little motivated to go and fill in some more forms to invite somebody.</p>
+            <p>We have build and tested different approaches. First of all I tried to <strong>trim down the amount of forms</strong> - prioritising the information we collected. We tried moving screens around, adding more explanatory information and/or graphics. We even radically changed the onboarding flow to reflect Apple's principle of <strong>only asking what you need and when you need</strong>. At some point we tested builds with intro flows of 1 to 3 screens (ultimately asking for access to phone's gallery only). When we crafted that instantaneous onboarding, we were so happy that we finally found the best way to go! In reality, though, it was not so ideal. Later, we <strong>combined what we had learnt</strong> from that with the <strong>patterns we new were working well</strong> to build the onboarding flow with our <b>record highest conversion rates</b>.</p>
+                            
+            <div id="owl" class="owl-carousel owl4">
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/6.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/7.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/11.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/12.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/8.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/10.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/1.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/2.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/3.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/4.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/5.jpg" alt=""></div>             
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/10.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/9.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/13.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/14.jpg" alt=""></div>
+
+            </div>
+                            
+                            
+                            
+            <h3 ><span class="bgclr mrgnr">W</span>ebsite</h3>                
+            <p>Company's website is not the main platform for acquiring new users, but it is an ideal <strong>place for existing users to curate and view their content</strong>. For that purpose, I was taking advantage of the larger screen real estate to create an <strong>interface</strong> that is <strong>more powerful</strong> than those on mobiles, <strong>but invisible</strong>, so it does not get in between user and their content. At the same time, <strong>analytics showed</strong> that users acquired through mobile apps often went on to invite their family to join their account, and <strong>invitees</strong> (especially the older generation) were predominantly <strong>desktop users</strong>. Hence, web interface had to be <strong>super easy and intuitive</strong> - after numerous iterations <b>we as a team have achieved this goal</b>, while <strong>more complex</strong> functionality was still available for <strong>advanced users</strong>. A good example of the latter is the <i>Book Building Interface</i> described below.</p>
+                            <p><b>A mistake learnt:</b> as our tests showed - <strong class="negative">the main flaw of the web UI</strong> was a concept we called 'drawer'. We <strong class="negative">assumed</strong> that the idea of hiding some of the photos and videos for a day into a collapsible container was a good one, as the main timeline could highlight the most popular content automatically. <strong class="negative">But in reality</strong> users found it rather <strong class="negative">frustrating</strong>, because the timeline was not reflecting the full picture. Furthermore, the 'drawer' indicators were simply <strong class="negative">not discoverable</strong> for many users.<br/> Unfortunately, due to several major restrictions we have not had the bandwidth to change the engine behind the web timeline for quite a long time. Obviously, that was <strong class="negative">limiting design</strong>.</p>
+                            <p><b>Analysing this mistake</b>, I am confident that <strong>the main 2 reasons</strong> were that <strong>(1)</strong> not enough time and effort was dedicated to user experience research (website was the very first platform, it had been 75% ready when I joined), plus <strong>(2)</strong> the company had invested lots of developers time and effort already, and was <strong class="negative">slow to admit the mistake</strong>.<br/>Currently it <b>is being</b> finally <b>fixed</b>. Happy end is coming.<br/>Or should I say, many more iterations?</p>
+                            
+                            
+            <div id="owl" class="owl-carousel owl1">
+            <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/web-new1.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/web-new2.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/web-new3.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/web-new4.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/web-new5.jpg" alt=""></div>
+            </div>
+                            
+                            <h3 ><span class="bgclr mrgnr">I</span>nterface for Building Books</h3>
+                            <p>This was one of the most enjoyable projects. It was before Flat design and the challenge was to <strong>re-create a real-life photobook building experience</strong>. I did a profound competition analysis, noted the best practices and functionality examples. I printed out some pictures and tried to make a photobook myself. We were working on the wireframes together with the Product manager. We tested, iterated and tested again until we felt confident that the UI was clear but powerful. After that I coded high-fidelity prototypes and we tested those with our current users. Those tests revealed many flaws that seemed to work ok during earlier wireframes testing. We fixed them, validated the results with the users and were ready to go live. First, we rolled this feature out to a <strong>limited amount of beta-group users</strong> to do live testing, after found bugs were fixed we made a <strong>silent launch</strong> to all users, collecting early feedback and fixing more bugs. Eventually, we did some more tweaks and fine-tuning before advertising the feature to all customers.</p>
+                            
+            <div id="owl" class="owl-carousel owl1">
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/bbm1.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/bbm2.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/bbm3.jpg" alt=""></div>
+
+            </div>
+                            
+                            
+                            
+                            
+            <h3 ><span class="bgclr mrgnr">A</span>ndroid App</h3>
+                            <p>Things with Android have been easier at Lifecake historically. Only verified methods and features were applied and the expectations have always been lower than for iPhone or iPad. These things have been rapidly changing recently. First I produced a concept for raising the bar of Android app quality and <strong>aligning the UI and interaction patterns to Google's guidelines</strong>. Later we received more power and flexibility for Android design and development. Currently we are working hard to build our best native Android experience yet, to coincide with the <strong>Lollipop's Material Design</strong> principles as well.</p>
+                            <p><b>The hardest challenge</b> of all was to handle uploads with their meta-data stripped by third party applications. When user uploads photos and videos to Lifecake, they all line up nicely in chronological order (not by the upload date, but by the original date). But sometimes the incoming content have no meta-data that carries this info, and then such content ends up in a wrong place in time. Add to this users with multiple kids in one photo, and you have quite a messy situation that almost certainly leads to <strong class="negative">confusion and frustration among customers.</strong></p>
+                            <p><b>The research for this project</b> included competition analysis, customer interviews, surveys, data analysis, tests with similarly functioning interfaces and with custom build prototypes, and numerous iterations of designs. <b>The result</b> was a tweaked uploading flow: we had to add one additional step, but we eliminated the possibility of content going into a wrong place. Moreover user could still skip that step if they wished, but at least they now knew what happened during upload and were not confused. Additionally, we changed UI to better emphasise the content with no meta-data: during uploading process as well as after it. <strong>Users are no longer confused, content is no longer lost.</strong> </p>
+                            
+            <div id="owl" class="owl-carousel owl4">
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/Android3.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/Android4.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/Android8.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/Android7.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/Android1.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/Android2.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/Android5.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/Android9.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/Android6.jpg" alt=""></div>
+                <div class="item"><img class="lazyOwl" data-src="img/portfolio/lfck/Android10.jpg" alt=""></div>
+            </div>
+                            
+                    
+                            
+                            
+
+        
+                            <ul class="list-inline item-details">
+                                <li>Company:
+                                    <strong class="footers"><a class="clr" href="https://www.lifecake.com" target="_blank">Lifecake</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong class="footers clr">2012-2015
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong class="footers clr">UX Design, UX Strategy, Product Design, UI Design, Interaction Design, Visual Design, Print Design, Corporate Identity
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>&#x2190; Go back to Works</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="containerportfolio">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="modal-body">
+                            <h2>Playenable, London</h2>
+            
+                            <p><b>Playenable</b> is a service that helps users find and book fitness classes near them and helps sports venues manage their bookings and get exposure to new audience. The company's website and mobile apps have to <strong>sell the service</strong>, display relevant search results in a user-friendly way, and also enable users to <strong>organise and manage</strong> schedules, classes and venues via <strong>clear dashboards</strong>.</p>
+            <p><b>The challenge</b> was to redesign desktop and mobile experiences to better present the idea of the service to customers, <strong>facilitate and encourage engagement</strong>, increase conversion and retention of the users.</p>
+                                        
+            <h3 ><span class="bgclr mrgnr">1</span> Old design & Problems</h3>                
+            
+            <p>The site's conversion rate was low, bouncing rate was high and the user interface design was out of date. Playenable wanted to improve indicators and to do a face-lift along the way. Also, mobile site was a separate one and there was no optimised design for tablets. The new design was meant to be responsive for all types of screens.</p>
+                            
+            <div class="fenetre"><img src="img/portfolio/playenableOld.jpg"></div>
+                            
+                            <h3 ><span class="bgclr mrgnr">2</span> Strategy, Research, IA & User Flows</h3>
+                            <p>I was leading the strategy, research, IA, wireframing, prototyping and testing.</p>
+                            <p>Before the start I <strong>planned</strong> the whole project on a Gantt timeline and <strong>confirmed</strong> the timing, tasks and deliverables with the management, designers and developers. <br/>I started off with the analysis of the existing experience in order to identify weak points in conveying the message, navigation, usability traps, etc.<br/>Old homepage did not emphasise the main message, did not focus on one main task and did not have one main CTA. To get the best <strong>insights to shape and guide my work</strong> I organised a series of brainstorm sessions and interviews with the stakeholders. Then I re-created information architecture and <strong>validated navigation</strong> by testing it with users. After that I created a series of wireframes, arranged them into user flows and <strong>scheduled user tests with one week intervals for iterations</strong>.</p>
+                            
+                            
+            <div class="fenetre"><img src="img/portfolio/playenable-flows.jpg"></div>
+
+        
+    
+                            <h3><span class="bgclr mrgnr">3</span> Usability testing</h3>
+                            <p>The mock-ups that I created for the tests were of low fidelity. That was more than enough for testing global and local navigation, tagline copy and the layout, but <strong class="negative">users were really distracted</strong> by the low quality of the visuals and often times commented on the design, mistakenly taking it for the final UI. That was <strong>the main thing I learned about my work process - never to use low-fi wireframes for complex user experience research</strong>. (Although, I still think they are useful for validating shorter user-journeys, or simpler tasks, as well as for internal use to get feedback from various stakeholders.) </p>
+                            
+                            
+                            
+            <div id="owl" class="owl-carousel owl2">
+            <div class="item"><img class="lazyOwl" data-src="img/portfolio/playe1.jpg" alt=""></div>
+            <div class="item"><img class="lazyOwl" data-src="img/portfolio/playe2.jpg" alt=""></div>
+            <div class="item"><img class="lazyOwl" data-src="img/portfolio/playe3.jpg" alt=""></div>
+            <div class="item"><img class="lazyOwl" data-src="img/portfolio/playe4.jpg" alt=""></div>
+            <div class="item"><img class="lazyOwl" data-src="img/portfolio/playem1.jpg" alt=""></div>
+            <div class="item"><img class="lazyOwl" data-src="img/portfolio/playem2.jpg" alt=""></div>
+            
+                 </div>
+                            
+                <h3><span class="bgclr mrgnr">4</span> Outcomes</h3>
+                            <p>After numerous iterations I turned the mock-ups into pixel perfect (or, sometimes, vector perfect) prototypes. In the new designs the homepage concentrated around one main message with one prominent task - to enable search of fitness classes/facilities by type, location, time and additional filters. As the next step, user saw the search results on the map plus the list view. <strong>The user was taken through the whole first-time journey with maximum comfort and minimum distraction</strong> <b>- all the way to the checkout</b>. User was offered to create an account in a less aggressive way, but at the same time <strong>the benefits of that were better emphasised</strong>.<br/>All screens were designed to be responsive for all screen resolutions.<br/><br/>
+                            <b>The outcomes</b> of the project were hi-fidelity prototypes and specs for the in-house designers.</p>
+                            
+                            
+                            
+             <div id="owl" class="owl-carousel owl2">
+            <div class="item"><img class="lazyOwl" data-src="img/portfolio/playde1.jpg" alt=""></div>
+            <div class="item"><img class="lazyOwl" data-src="img/portfolio/playde2.jpg" alt=""></div>
+            <div class="item"><img class="lazyOwl" data-src="img/portfolio/playde3.jpg" alt=""></div>
+            <div class="item"><img class="lazyOwl" data-src="img/portfolio/playde0.jpg" alt=""></div>
+            <div class="item"><img class="lazyOwl" data-src="img/portfolio/playde4.jpg" alt=""></div>
+            <div class="item"><img class="lazyOwl" data-src="img/portfolio/playde5.jpg" alt=""></div>
+            <div class="item"><img class="lazyOwl" data-src="img/portfolio/playde6.jpg" alt=""></div>
+            
+                 </div>
+        
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong class="footers"><a class="clr" href="http://www.playenable.com" target="_blank">Playenable</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong class="footers clr">2013
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong class="footers clr">UX Strategy, User & Product Research, IA, Wireframes & Prototypes, Usability tests, Desktop & Mobile UI
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>&#x2190; Go back to Works</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="containerportfolio">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="modal-body">
+                            <h2>London Business School</h2>
+                            
+                            <p>Early in my career, I was commissioned for several projects for London Business School. One of them was to brand a yearly Disorientation Week for the class of 2012.</p>
+                            
+            <h3 ><span class="bgclr mrgnr">C</span>hallenge: Method to the Madness</h3>
+                            <p>Each year, the school hosts an Orientation Week for new students, focusing on organisation and team-building. At the end of the course, they also hold a <i>Disorientation Week</i>, which is all about fun and celebrating the students' journey.</p>
+                            <p>For the class of 2012, the challenge was to create a logo and branding for Disorientation Week, aligning with the event's unofficial theme: the London Olympics.</p>
+                            
+                            <div id="owl" class="owl-carousel owl1">
+                            <div class="item"><img class="lazyOwl" data-src="img/portfolio/lbs/rings.png" alt=""></div>
+                            <div class="item"><img class="lazyOwl" data-src="img/portfolio/lbs/ldnol.png" alt=""></div>
+                            </div>
+                            
+                            <p>The goal was to develop a visual identity that encapsulated both the energy of the Olympics and the <strong>idea of <i>"total disorientation"</i> to reflect the celebratory and playful nature of the event</strong>. It was important to make the branding feel exciting and memorable, while also aligning with the fun atmosphere that the event intended to provide.</p>
+            
+                            
+            
+                            
+                            
+            <h3 ><span class="bgclr mrgnr">P</span>rocess</h3>                
+            <p>This project was both open-ended and challenging, as it required creativity while respecting certain limitations—such as not being able to use official Olympic symbols without permission. I embraced these constraints and approached the project with an open mind and a structured creative process.</p>
+
+            <p><b>Research and Concept Development:</b> I began by immersing myself in visual research, gathering inspiration related to both the Olympics and the concept of disorientation. This research provided a foundation for my design approach, helping me identify potential themes, colors, and imagery that would convey the event's character.</p>
+
+            <p><b>Sketching and Iteration:</b> Using my research, I sketched multiple design concepts, each exploring different visual interpretations of the theme. I wanted to ensure that the logo could represent both the Olympics and the spirit of disorientation in a fun and light-hearted way. After creating a range of initial sketches, I gathered feedback to identify the strongest directions.</p>
+
+                            <p><b>Refinement and Testing:</b> Based on the feedback, I selected the most promising design concepts and refined them further. I iterated on the chosen concepts, adjusting elements such as shape, color, and typography to better capture the desired look and feel.</p>
+                            
+              <div class="fenetre"><img src="img/portfolio/lbs6.jpg"></div>              
+            
+                            
+            <h3 ><span class="bgclr mrgnr">O</span>utcomes:</h3>
+            <p>The final branding package included two versions of the logo, an icon, and a letterhead style, providing flexibility for use across different materials. The logo was printed on flags, banners, and t-shirts for the Disorientation Week event and featured prominently on the event's website and official materials. The branding successfully captured the spirit of the event, adding to the energy and excitement of the celebration.</p>
+
+            <p>This project allowed me to explore the intersection of graphic design and branding in a fun, unrestricted way, while also navigating real-world constraints like intellectual property limitations. It provided me with valuable experience in visual storytelling, iterative design, and the importance of aligning a brand with an event’s character and purpose.</p>
+                            
+            <div id="owl" class="owl-carousel owl1">
+            <div class="item"><img class="lazyOwl" data-src="img/portfolio/lbs1.jpg" alt=""></div>
+            <div class="item"><img class="lazyOwl" data-src="img/portfolio/lbs2.jpg" alt=""></div>
+                            </div>
+  
+                
+        
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong class="footers"><a class="clr" href="http://www.lbs-disorientation2012.jimdo.com" target="_blank">London Business School</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong class="footers clr">2012
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong class="footers clr">Branding, Graphic and Print Design
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>&#x2190; Go back to Works</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>-->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+    <script src="owl-carousel/owl.carousel.js"></script>
+
+
+     
+
+
+<script>
+$(document).ready(function() {
+
+$(".owl4").owlCarousel({
+        items : 4,
+        lazyLoad : true,
+        navigation : false,
+        autoPlay : 5000
+      });
+$(".owl2").owlCarousel({
+        items : 2,
+        lazyLoad : true,
+        navigation : false,
+        autoPlay : 5000
+      });
+$(".owl1").owlCarousel({
+        items : 1,
+        lazyLoad : true,
+        navigation : false,
+        autoPlay : 5000
+      });
+
+});
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57053680-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+
 </html>
